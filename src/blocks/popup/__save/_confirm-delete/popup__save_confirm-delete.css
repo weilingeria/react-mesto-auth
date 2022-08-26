@@ -1,0 +1,9 @@
+.popup__save_confirm-delete {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 475px) {
+    .popup__save_confirm-delete {
+        margin-top: 0;
+    }
+}
