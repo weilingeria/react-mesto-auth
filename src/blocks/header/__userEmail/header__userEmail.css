@@ -1,0 +1,21 @@
+.header__userEmail {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  height: 22px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0s, .2s ease-in;
+  padding: 0;
+}
+
+.header__userEmail:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 680px) {
+  .header__userEmail {
+    
+  }
+}

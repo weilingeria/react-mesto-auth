@@ -1,0 +1,35 @@
+.header__burger-button {
+  display: none;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.header__burger-button:hover {
+  opacity: .6;
+}
+
+.header__burger-button:active {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 680px) {
+  .header__burger-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../images/burger-button.svg);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__burger-button {
+    width: 25px;
+    height: 25px;
+  }  
+}
